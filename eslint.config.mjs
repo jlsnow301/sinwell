@@ -20,6 +20,7 @@ export default tseslint.config(
       react: react,
     },
     rules: {
+      "@typescript-eslint/no-explicit-any": "off",
       "no-unused-vars": "off",
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
@@ -29,5 +30,5 @@ export default tseslint.config(
       "unused-imports/no-unused-vars": "off",
     },
   },
-  eslintCongigPrettier
+  eslintCongigPrettier,
 );
